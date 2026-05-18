@@ -94,15 +94,15 @@ export const HamburgerMenu = ({ isOpen, onClose, btnRef }: IHamburgerMenu) => {
               p="10px"
               border="solid white 2px"
               borderRadius={10}
-              // onClick={() =>
-              //   handleClick(
-              //     "https://www.skiddle.com/whats-on/Sheffield/Kelham-Island-Museum/Seven-Hills-Tattoo-Convention-2025/40961180/"
-              //   )
-              // }
+              onClick={() =>
+                handleClick(
+                  "https://www.skiddle.com/whats-on/Sheffield/Kelham-Island-Museum/Seven-Hills-Tattoo-Convention-2026-Sheffield/42426880/",
+                )
+              }
               w="full"
               textAlign={"center"}
             >
-              Buy Tickets (coming soon)
+              Buy Tickets
             </Link>
           </VStack>
         </DrawerBody>
