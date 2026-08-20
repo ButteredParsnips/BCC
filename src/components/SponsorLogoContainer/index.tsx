@@ -39,13 +39,7 @@ export const SponsorLogoContainer = () => {
           imageLink="/ogLogo.png"
           websiteLink="https://www.ogtattoosupply.com/"
         /> */}
-        <SponsorLogoBox
-          title="Liquid Death"
-          subtitle="Eco-friendly Water"
-          altText="Liquid Death Mountain Water"
-          imageLink="/LDlogo.png"
-          websiteLink="https://liquiddeath.com/en-gb"
-        />
+
         {/* {     </HStack>
       <HStack
         width={sponsorLogoContainer.widthSize}
